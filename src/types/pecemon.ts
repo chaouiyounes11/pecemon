@@ -1,0 +1,20 @@
+export type Pecemon = {
+  id: string;
+  type: string;
+  link: string;
+  description: string;
+  title: string;
+  model: string;
+  processor: string;
+  ram: string;
+  storage: string;
+  screen: string;
+  brand: string;
+  price: string;
+  priceBeforeDiscount: string;
+  klarnaPrice: string;
+  available: boolean;
+  stock: number;
+  images: string[];
+  commentaires_clients?: string[];
+};
